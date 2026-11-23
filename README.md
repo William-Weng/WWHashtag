@@ -12,7 +12,7 @@
 
 核心解析不依賴 UI 框架；標籤樣式、點擊行為與業務邏輯則由使用端決定。
 
-https://github.com/user-attachments/assets/85adf07c-f5a3-4e73-91e3-c0551f921a5f
+https://github.com/user-attachments/assets/278d91a0-0b0f-4628-83f0-29a30f2d87cc
 
 ## 功能特色
 
