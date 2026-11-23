@@ -12,6 +12,8 @@
 
 核心解析不依賴 UI 框架；標籤樣式、點擊行為與業務邏輯則由使用端決定。
 
+https://github.com/user-attachments/assets/85adf07c-f5a3-4e73-91e3-c0551f921a5f
+
 ## 功能特色
 
 - 支援中文、英文與中英文混合標籤。

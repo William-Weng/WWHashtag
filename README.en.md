@@ -12,6 +12,7 @@ A lightweight Swift hashtag parser that supports Chinese characters, English let
 
 The core parser does not depend on any UI framework. Hashtag styling, tap handling, and application-specific behavior are left to the caller.
 
+https://github.com/user-attachments/assets/85adf07c-f5a3-4e73-91e3-c0551f921a5f
 ## Features
 
 - Supports Chinese, English, and mixed-language hashtags.

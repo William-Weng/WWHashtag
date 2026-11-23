@@ -1,0 +1,15 @@
+{
+  "originHash" : "c6529e09e0e38e96c35b6d9b6af6da27e3c74adf4d7ed21605c2087124038695",
+  "pins" : [
+    {
+      "identity" : "wwhashtag",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWHashtag",
+      "state" : {
+        "revision" : "9495b3903b0a318c9d6173de45f824d1331c1ff0",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
