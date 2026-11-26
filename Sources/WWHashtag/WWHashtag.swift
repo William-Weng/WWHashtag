@@ -37,20 +37,15 @@ public extension WWHashtag {
             return .init(name: String(text[nameRange]), text: String(text[textRange]), range: result.range)
         }
     }
-}
-
-public extension WWHashtag {
     
-    /// 解析文字視圖中的 Hashtag，並將指定標籤轉換成可點擊的連結。
+    /// 解析文字視圖中的 Hashtag，並將指定標籤轉換成可點擊的連結
     ///
-    /// 沿用文字視圖的字型、文字顏色與對齊方式，
-    /// 但不保留原本逐字設定的富文字樣式。
+    /// 沿用文字視圖的字型、文字顏色與對齊方式，但不保留原本逐字設定的富文字樣式
     ///
-    /// 此方法不會設定 delegate、連結樣式或版面配置。
     ///
     /// - Parameters:
-    ///   - textView: 要設定的文字視圖，直接使用其目前的文字內容。
-    ///   - linkFor: 根據解析結果提供連結；回傳 nil 時，該標籤維持一般文字。
+    ///   - textView: 要設定的文字視圖，直接使用其目前的文字內容
+    ///   - linkFor: 根據解析結果提供連結；回傳 nil 時，該標籤維持一般文字
     @MainActor
     static func configureText(in textView: UITextView, linkFor: (Match) -> URL?) {
         
@@ -89,6 +84,7 @@ private extension WWHashtag {
         do {
             return try NSRegularExpression(pattern: pattern)
         } catch {
-            preconditionFailure("Invalid internal hashtag pattern: \(error)")}
+            preconditionFailure("Invalid internal hashtag pattern: \(error)")
+        }
     }()
 }

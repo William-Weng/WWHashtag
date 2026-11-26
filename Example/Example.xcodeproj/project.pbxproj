@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81C963CC30B3F1E60036D9B0 /* WWHashtag in Frameworks */ = {isa = PBXBuildFile; productRef = 81C963CB30B3F1E60036D9B0 /* WWHashtag */; };
+		81308CFF30B422F500F4FCC0 /* WWHashtag in Frameworks */ = {isa = PBXBuildFile; productRef = 81308CFE30B422F500F4FCC0 /* WWHashtag */; };
+		81CBEFEA30B801E1006EA84B /* WWHashtag in Frameworks */ = {isa = PBXBuildFile; productRef = 81CBEFE930B801E1006EA84B /* WWHashtag */; };
 		81D0586230B3D9550027242D /* WWHashtag in Frameworks */ = {isa = PBXBuildFile; productRef = 81D0586130B3D9550027242D /* WWHashtag */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +41,9 @@
 		812A749E307F5FC800287876 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				81CBEFEA30B801E1006EA84B /* WWHashtag in Frameworks */,
 				81D0586230B3D9550027242D /* WWHashtag in Frameworks */,
-				81C963CC30B3F1E60036D9B0 /* WWHashtag in Frameworks */,
+				81308CFF30B422F500F4FCC0 /* WWHashtag in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -82,7 +84,8 @@
 			name = Example;
 			packageProductDependencies = (
 				81D0586130B3D9550027242D /* WWHashtag */,
-				81C963CB30B3F1E60036D9B0 /* WWHashtag */,
+				81308CFE30B422F500F4FCC0 /* WWHashtag */,
+				81CBEFE930B801E1006EA84B /* WWHashtag */,
 			);
 			productName = Example;
 			productReference = 812A74A1307F5FC800287876 /* Example.app */;
@@ -96,7 +99,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2710;
-				LastUpgradeCheck = 2710;
+				LastUpgradeCheck = 2720;
 				TargetAttributes = {
 					812A74A0307F5FC800287876 = {
 						CreatedOnToolsVersion = 27.1;
@@ -113,7 +116,7 @@
 			mainGroup = 812A7498307F5FC800287876;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				81C963CA30B3F1E60036D9B0 /* XCRemoteSwiftPackageReference "WWHashtag" */,
+				81CBEFE830B801E1006EA84B /* XCRemoteSwiftPackageReference "WWHashtag" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 812A74A2307F5FC800287876 /* Products */;
@@ -275,6 +278,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -332,6 +336,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -359,7 +364,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81C963CA30B3F1E60036D9B0 /* XCRemoteSwiftPackageReference "WWHashtag" */ = {
+		81CBEFE830B801E1006EA84B /* XCRemoteSwiftPackageReference "WWHashtag" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWHashtag";
 			requirement = {
@@ -370,9 +375,13 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		81C963CB30B3F1E60036D9B0 /* WWHashtag */ = {
+		81308CFE30B422F500F4FCC0 /* WWHashtag */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 81C963CA30B3F1E60036D9B0 /* XCRemoteSwiftPackageReference "WWHashtag" */;
+			productName = WWHashtag;
+		};
+		81CBEFE930B801E1006EA84B /* WWHashtag */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81CBEFE830B801E1006EA84B /* XCRemoteSwiftPackageReference "WWHashtag" */;
 			productName = WWHashtag;
 		};
 		81D0586130B3D9550027242D /* WWHashtag */ = {
